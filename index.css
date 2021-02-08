@@ -1,0 +1,26 @@
+.country{
+   border:2px solid red;
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center;
+   width: 300px;
+  
+
+}
+.country-name{
+    font-size: 30px;
+    color: seagreen;
+}
+#countris{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px
+}
+#countryDetail img{
+    width: 40%;
+}
+#countryDetail{
+   text-align: center;
+   background-color: seagreen;
+   border-radius: 10px;
+}
